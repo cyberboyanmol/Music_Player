@@ -221,8 +221,6 @@ shuffle.addEventListener("click", () => {
   shuffle.classList.toggle("active");
 });
 
-<<<<<<< HEAD
-// document.addEventListener("contextmenu", (event) => event.preventDefault());
-=======
+
 document.addEventListener('contextmenu', event => event.preventDefault());
 /*===================={pending:--- paused and play using space key}=====================*/
