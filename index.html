@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="musical-note.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+
+    <title>Music Player</title>
+  </head>
+
+  <body>
+    <div class="main_container">
+      <div class="music_player">
+        <div class="cover">
+          <img
+            class="song_cover"
+            src="https://a10.gaanacdn.com/gn_img/albums/JD2KJAbOLw/2KJyB1DPbO/size_l.jpg"
+            alt=""
+          />
+        </div>
+        <div class="info">
+          <div class="title">Bijlee Bijlee</div>
+          <div class="singer">Harrdy Sandhu</div>
+        </div>
+
+        <div class="btn_box">
+          <i class="material-icons repeat">repeat</i>
+          <i class="material-icons favorite active">favorite</i>
+          <i class="material-icons shuffle">shuffle</i>
+        </div>
+        <div class="music_box">
+          <div class="music_range">
+            <input
+              type="range"
+              step="1"
+              class="seekbar"
+              value="0"
+              min="0"
+              max="100"
+              oninput="handleSeekBar()"
+            />
+            <div class="time_span">
+              <div class="current_time">0:0</div>
+              <div class="Total_duration">0:0</div>
+            </div>
+          </div>
+
+          <audio
+            class="music_element"
+            src="https://pwdown.com/113515/Bijlee Bijlee - Harrdy Sandhu.mp3"
+            type="audio/mp3"
+          ></audio>
+          <div class="handle_song">
+            <div class="previous_song">
+              <i class="fas fa-step-backward"></i>
+            </div>
+            <div class="play">
+              <i class="fas fa-play"></i>
+            </div>
+            <div class="next_song">
+              <i class="fas fa-step-forward"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
