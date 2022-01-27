@@ -1,3 +1,3 @@
 # Music_Player
 
-![Music player](./final look.png)
+![Music player](final look.png)
