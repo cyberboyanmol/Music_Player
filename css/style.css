@@ -193,11 +193,12 @@ input[type="range"]::-moz-range-track {
   cursor: pointer;
 }
 
-.btn_box :nth-child(1):hover,
+/* .btn_box :nth-child(1):hover,
 .btn_box :nth-child(2):hover,
 .btn_box :nth-child(3):hover {
   color: #1f1f1f;
-}
+} */
+
 .btn_box :nth-child(1):active,
 .btn_box :nth-child(2):active,
 .btn_box :nth-child(3):active {
