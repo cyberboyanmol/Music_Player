@@ -225,5 +225,4 @@ shuffle.addEventListener("click", () => {
 // document.addEventListener("contextmenu", (event) => event.preventDefault());
 =======
 document.addEventListener('contextmenu', event => event.preventDefault());
->>>>>>> 3684f51b23ff2d6617a4caa178e3e5dfd3728eda
 /*===================={pending:--- paused and play using space key}=====================*/
